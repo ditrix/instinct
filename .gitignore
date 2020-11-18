@@ -1,0 +1,33 @@
+
+
+# WordPress
+*.log
+/wp-*.php
+!wp-config.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+temp/*
+
+/backup*
+
+wp-admin/
+wp-includes/
+
+
+node_modules/
+
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
